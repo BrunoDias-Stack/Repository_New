@@ -1,0 +1,62 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: whitesmoke;
+
+  overflow: auto;
+}
+
+.container-menu {
+  display: initial;
+}
+
+a {
+  color: #00B7FF;
+
+}
+
+.navbar {
+  right: -100px;
+ display: initial;
+ background-color: coral;
+ 
+}
+
+.carousel {
+  width: 1000px;
+  height: auto;
+  margin-top: -40px;
+  margin-bottom: 100px;
+  align-items: center;
+  right: -180px;
+}
+/* 
+.card_container{
+  width: 8000px;
+  height: auto;
+  margin-top: -10px;
+  margin-bottom: 100px;
+  right: -180px;
+} */
+/*
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+  
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 1000px;
+  height: 32rem;
+ box-sizing: border-box;
+  /* overflow: hidden;
+  width: 700px;
+  height: 400px;
+  margin: 0 auto; */
+
