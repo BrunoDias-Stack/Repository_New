@@ -7,4 +7,13 @@ module.exports = {
     caes: (req, res) => {
         res.render('pets');
 },
+    gatos: (req, res) => {
+    res.render('pets');
+},
+    passaros: (req, res) => {
+    res.render('pets');
+},
+    repteis: (req, res) => {
+    res.render('pets');
+},
 }

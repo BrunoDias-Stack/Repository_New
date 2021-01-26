@@ -1,14 +1,12 @@
 body {
   /* padding: 50px; */
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: whitesmoke;
-
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
   overflow: auto;
 }
 
-.container-menu {
+/* .container-menu {
   display: initial;
-}
+} */
 
 a {
   color: #00B7FF;

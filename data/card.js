@@ -16,6 +16,12 @@ let cards = [
       'titulo': 'Titulo Três', 
       'texto': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.', 
       'botao': 'Ver mais'
+    },
+    {
+      'caminho_de_imagem': '/images/2.jpg',
+      'titulo': 'Titulo Três', 
+      'texto': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.', 
+      'botao': 'Ver mais'
     }
   ];
   
