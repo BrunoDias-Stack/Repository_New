@@ -1,34 +1,36 @@
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">PetShop</a>
-      <button class="navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/caes">Cães</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/gatos">Gatos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/repteis">Répteis</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/passaros">Pássaros</a>
-          </li>
-        </ul>
-      </div>
+<div class="container p-0 m-0 w-100 align-items-center">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/caes">Cães</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="/gatos">Gatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/repteis">Répteis</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="/passaros">Pássaros</a>
+        </li>
+      </ul>
     </div>
   </nav>
+</div>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="top: 50px; width: 850px;">
+
+<div class="container d-flex p-0 w-100 m-auto al">
+  
+<div id="carouselExampleIndicators"  class="carousel slide carousel-fade" data-bs-ride="carousel" data-slide-to="2">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/images/gato_home_carrosel.jpg" class="d-block w-100" alt="..." style="height: 400px; width: 1400px;" >
@@ -43,15 +45,17 @@
         <img src="/images/cavalo_home_carrosel.jpg" class="d-block w-100" alt="..." style="height: 400px; width: 1400px;">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev" style="top: 50px;">
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next" style="top: 50px;">
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </a>
   </div>
-<div class="card-deck">
+</div>
 
+<div class="container justify-content-center m-auto">
+<div class="card-deck">
   <% cards.forEach(card => { %>
     <div class="col-8 col-md-3 col-lg-4 mt-3" style="width: 18rem;">
       <div class="card">
@@ -64,5 +68,6 @@
       </div>
     </div>
   <% }) %>
+</div>
 </div>
 </body>
