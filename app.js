@@ -29,9 +29,9 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/home', homeRouter);
 app.use('/caes', caesRouter);
-app.use('/gatos', caesRouter);
-app.use('/passaros', caesRouter);
-app.use('/repteis', caesRouter);
+app.use('/gatos', gatosRouter);
+app.use('/passaros', passarosRouter);
+app.use('/repteis', repteisRouter);
 
 
 // catch 404 and forward to error handler

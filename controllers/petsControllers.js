@@ -5,15 +5,15 @@ module.exports = {
         res.render('home', { cards: cards });
     },
     caes: (req, res) => {
-        res.render('pets');
+    res.render('caes', { cards: cards });
 },
     gatos: (req, res) => {
-    res.render('pets');
+    res.render('gatos', { cards: cards });
 },
     passaros: (req, res) => {
-    res.render('pets');
+    res.render('passaros', { cards: cards });
 },
     repteis: (req, res) => {
-    res.render('pets');
+    res.render('repteis', { cards: cards });
 },
 }
